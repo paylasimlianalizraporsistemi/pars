@@ -1,9 +1,23 @@
-## Blokzinciri Tabanlı Paylaşımlı Analiz Rapor Sistemi: PARS
+# Languages
+[TR](#blokzinciri-tabanlı-paylaşımlı-analiz-rapor-sistemi-pars) <br>
+[EN](#blockchain-based-decentralized-lab-report-process-framework)
+
+----------------------------------
+
+# Blokzinciri Tabanlı Paylaşımlı Analiz Rapor Sistemi: PARS
 Araştırma, geliştirme ve test süreçlerine ev sahipliği yapan laboratuvarlardaki bulgular sonucu oluşturulan raporların geleneksel yöntemlerle depolanması, paylaşılması ve erişilmesi aşamalarındaki sorunları tespit edilmiş ve alan uzmanlarından teyit edilmiştir. Veri bütünlüğü, takip edilebilirlik, erişilebilirlik ve güvenilirlik alanındaki eksiklerin giderilmesi için teknolojik gelişmelerden yararlanılabilir. Bu proje, analiz laboratuvarlarından çıkan raporların, değiştirilemez, takip edilebilir olmasını ve az maliyetle depolanmasını sağlayan PARS (Paylaşımlı Analiz Rapor Sistemi) sistemi bir çözüm önerisi olarak sunmaktadır. Bu sayede laboratuvarlar, denetleyici kurumlar, firmalar ve tüketiciler arasındaki bilgi paylaşımının güvenilir ve doğrulanabilir bir hale getirilmesi hedeflenmektedir. Bu amaçla, blokzinciri ve IPFS (InterPlanetary File System) gibi dağıtık ve merkeziyetsiz teknolojilerin birleştirilmesiyle oluşturduğumuz sistem ile öncelikle ulusal çapta güvenilir bir rapor (belge) takip sisteminin oluşturulması amaçlanmıştır. Sistemin dağıtık yapısı sürekli çalışabilir olma özelliğini beraberinde getirmektedir. Geliştirilen akıllı kontratlar ile otonom bir yapının oluşturulması amaçlanmıştır. IPFS sayesinde sürdürülebilir ve ölçeklenebilir bir dosya sistemi yapılmıştır. Yapılan prototip ve testler ile birlikte, sistemin düşük maliyetli cihazlarda çalışabilir olduğu kanıtlanmıştır. İlerleyen süreçlerde PARS aracılığıyla laboratuvar raporlarından elde edilen verilerin, takip edecek yapay zeka çalışmalarında kaynak veri olarak kullanılabileceği de öngörülmektedir. PARS prototipinin kaynak kodları açık kaynak olarak paylaşılmıştır.
 
-## Fig 1. PARS Sistem Şeması
+## Şekil 1: PARS Sistem Şeması
 <img src="https://github.com/paylasimlianalizraporsistemi/pars/blob/main/parssema.png" width="800" alt="PARS Sistem Şeması">
 
 Proje geliştirme aşamasındadır.
 
+----------------------------------
 
+# Blockchain-based decentralized lab report process framework
+Laboratories are known as scientific research places for research, development, or test purposes.  These laboratories serve essential functions for testing and analyzing food, water, soil, and, related and they mostly work with manual processes where several different test equipment are involved. Since these test results mostly rely on the lab worker’s skills and experience; data integrity based problems might occur from a personal mistake, data misinterpretation, and alterability. Technological developments can help to overcome all these problems. There are many disruptive technologies such as blockchain, artificial intelligence, IoT, and distributed file systems like InterPlanetary File System (IPFS). Any one of these technologies or the combination of them could be used as a solution to the specified problems in the laboratory environments. Blockchain, which is a decentralized technology, mainly provides transparency, accurate tracking, immutable ledger, security services such as integrity and trust. This study aims to develop a framework of a decentralized lab report process system to enhance the transparency and trust of the lab test reports by using blockchain technology. In this study, Quorum is selected as the blockchain framework and the Raft consensus protocol is used for an energy-efficient blockchain solution. Smart contracts are used as the autonomous code of the system. Transaction and contract privacy is used to handle the privacy issues. IPFS provides a scalable and sustainable distributed file system. The proposed decentralized lab report framework consists of two parts. The first part is a decentralized blockchain for keeping transaction records, smart contracts, and links to the lab test reports. The second part is the IPFS distributed file system that will keep the lab test reports. Verification of the framework will be done with scalability, latency, performance tests. As a result, the framework demonstrates the lab report traceability, tamper-proof documents at a low cost, and less human error. It will make sharing of lab test results reliable and verifiable between laboratories, companies, consumers, and authorities. Finally, the challenges on deploying artificial intelligence methods and IoT remain as future studies. 
+
+## Figure 1: PARS system architecture
+<img src="https://github.com/paylasimlianalizraporsistemi/pars/blob/main/parssema.png" width="800" alt="PARS system architecture">
+
+The project is under development.
