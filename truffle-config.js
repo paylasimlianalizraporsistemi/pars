@@ -36,14 +36,14 @@ module.exports = {
    */
 
   networks: {
-   development: {
-      host: "127.0.0.1",
-      port: 22000, // was 8545
-      network_id: "*", // Match any network id
+    development: {
+      host: '127.0.0.1',
+      port: 7545, // was 8545
+      network_id: 5777, // Match any network id
       gasPrice: 0,
       gas: 4500000,
-      type: "quorum" // needed for Truffle to support Quorum
-    }
+      type: 'quorum', // needed for Truffle to support Quorum
+    },
     // Useful for testing. The `development` name is special - truffle uses it by default
     // if it's defined here and no other network is specified at the command line.
     // You should run a client (like ganache-cli, geth or parity) in a separate terminal
@@ -90,7 +90,7 @@ module.exports = {
   // Configure your compilers
   compilers: {
     solc: {
-      version: "0.8.0",    // Fetch exact version from solc-bin (default: truffle's version)
+      version: '0.8.0', // Fetch exact version from solc-bin (default: truffle's version)
       // docker: true,        // Use "0.5.1" you've installed locally with docker (default: false)
       // settings: {          // See the solidity docs for advice about optimization and evmVersion
       //  optimizer: {
@@ -99,7 +99,7 @@ module.exports = {
       //  },
       //  evmVersion: "byzantium"
       // }
-    }
+    },
   },
 
   // Truffle DB is currently disabled by default; to enable it, change enabled: false to enabled: true
@@ -109,6 +109,6 @@ module.exports = {
   // $ truffle migrate --reset --compile-all
 
   db: {
-    enabled: false
-  }
-};
+    enabled: false,
+  },
+}
